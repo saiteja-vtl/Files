@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class FileReaderApp {
 
     public void readFile(String filePath) throws IOException {
-        // Read all lines from the file
+
         File file = new File(filePath);
         if (!file.exists()) {
             throw new FileNotFoundException("The file does not exist.");
